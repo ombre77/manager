@@ -1,0 +1,10 @@
+#addons-manager
+#if you want to import libs, do it inside of the function
+def command(args):
+	"""Description of youre command"""
+	#args is a list with the args of the command
+	print("Hello!")
+	print(f"Args:{args}")
+	#Note:
+	#colorama,math,time,random are available but you need to have them installed
+    #(just do pip install requirements.txt) and imported inside the function
